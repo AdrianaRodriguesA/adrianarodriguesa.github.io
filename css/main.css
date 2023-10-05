@@ -1,0 +1,251 @@
+/* configuração projetos */
+#main-content {
+   height: 100%;
+   margin-left: 25%;
+}
+#main-content #portfolio-container .projeto img {
+   width: 50%;
+   height: 45vh;
+   float: left;
+   position: relative;
+   opacity: 0.6;
+}
+#main-content #portfolio-container .projeto img:hover {
+   box-shadow: 0px 0px 8px rgb(112, 109, 110);
+   opacity: 1;
+}
+/* configuração sobre mim */
+#main-content #sobreMim {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: rgb(214, 208, 210);
+}
+#main-content #sobreMim img {
+   width: 60%;
+   height: 50vh;
+   filter: drop-shadow(5px 5px 5px rgb(34, 34, 34));
+}
+#main-content #curriculo {
+   height: 30vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   background-color: rgb(239, 232, 234);
+}
+#main-content #curriculo div {
+   margin: 7% 0%;
+   transition: box-shadow 0.20s ease-in-out;
+}
+#main-content #curriculo img {
+   height: 45px;
+   width: 60px;
+   cursor: pointer;
+}
+#main-content #curriculo img:hover {
+   background-color: rgb(176, 171, 172);
+   box-shadow: 0px 0px 8px rgb(112, 109, 110);
+}
+/* configuração logo dos cursos */
+#main-content #tech {
+   height: 30vh;
+   background-color: rgb(176, 171, 172);
+}
+#main-content #tech .logo {
+   width: 20%;
+   float: left;
+   position:relative;
+   padding: 25px 60px;
+   
+}
+#main-content #tech .logo img {
+   height: 18vh;
+   filter: drop-shadow(5px 5px 5px rgb(34, 34, 34));
+}
+/* telas de rolamento certificados */
+#main-content #content {
+   height: 60vh;
+   width: 100%;
+   background-color: rgb(112, 109, 110);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#main-content #content .conteudo {
+   height: 300px;
+   width: 490px;
+   overflow: hidden;
+   position: absolute;
+}
+ /* para esconder as bolinhas do input */
+#content .conteudo .certificados input {
+   display: none;
+}
+#content .conteudo .navigation {
+   position: absolute;
+   bottom: 20px;
+   left: 50%;
+   transform: translate(-50%);
+   display: flex;
+}
+#content .conteudo .navigation .bar {
+   width: 25px;
+   height: 17px;
+   border: 2px solid rgb(112, 109, 110);
+   margin: 4px 2px;
+   border-radius: 2px;
+   cursor: pointer;
+   transition: .4s;
+   background-color: rgb(216, 237, 230);
+   font-size: 13px;
+   text-align: center;
+}
+#content .conteudo .navigation .bar:hover {
+   background: rgb(112, 109, 110);
+}
+#content .conteudo .certificados {
+   display: flex;
+   width: 1600%;
+   height: 100%;
+   /* width é a quantidade total de imagens, sendo 100% cada uma. */
+}
+#content .conteudo .certificado {
+   width: 6.25%;
+   transition: .6s;
+  /* width 100% é o content inteiro então dividir pela quantidade de imagem */
+}
+#content .conteudo .certificado img {
+   width: 100%;
+   height: 100%;
+}
+#certificado1:checked ~ .s1 {
+   margin-left: 0;
+}
+/* calcular margin-left dividindo a quantidade de imagem por 100 */
+#certificado2:checked ~ .s2 {
+   margin-left: -6.25%;
+}
+#certificado3:checked ~ .s3 {
+   margin-left: -12.50%;
+}
+#certificado4:checked ~ .s4 {
+   margin-left: -18.75%;
+}
+#certificado5:checked ~ .s5 {
+   margin-left: -25.00%;
+}
+#certificado6:checked ~ .s6 {
+   margin-left: -31.25%;
+}
+#certificado7:checked ~ .s7 {
+   margin-left: -37.50%;
+}
+#certificado8:checked ~ .s8 {
+   margin-left: -43.75%;
+}
+#certificado9:checked ~ .s9 {
+   margin-left: -50.00%;
+}
+#certificado10:checked ~ .s10 {
+   margin-left: -56.25%;
+}
+#certificado11:checked ~ .s11 {
+   margin-left: -62.50%;
+}
+#certificado12:checked ~ .s12 {
+   margin-left: -68.75%;
+} 
+#certificado13:checked ~ .s13 {
+   margin-left: -75.00%;
+} 
+#certificado14:checked ~ .s14 {
+   margin-left: -81.25%;
+} 
+#certificado15:checked ~ .s15 {
+   margin-left: -87.50%;
+} 
+#certificado16:checked ~ .s16 {
+   margin-left: -93.75%;
+} 
+/* configuração contato */
+#contato {
+   width: 100%;
+   height: 120vh;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   background-color: rgb(239, 232, 234);
+}
+#contato h2 {
+   margin: 30px 0 0 0;
+}
+#contato .contato {
+   width: 80%;
+   height: 18vh;
+   background-color: rgb(214, 208, 210);
+   display: flex;
+   flex-direction: row; 
+   margin: 1% 10%;
+}
+#contato .contato .local {
+   width: 50%;
+   height: 50%;
+   margin-top: 5px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 7% 1% 5% 1%;
+   align-items: center;
+}
+#contato .contato .local p {
+   font-size: 22px;
+}
+/* configuração contato formulario*/
+#contato .contato-form {
+   height: 90vh;
+   margin: 10px 5px;
+   font-size: 20px;
+   text-align: left;
+}
+input, textarea {
+   width: 100%;
+   padding: 5px 0px;
+   margin-bottom: 5px;
+   font-size: 18px;
+   font: inherit;
+   border: 1px solid rgb(176, 171, 172);
+}
+.contato-form textarea {
+   min-height: 180px;
+}
+input, textarea {   
+   transition: border-color, box-shadow 0.2s;
+   resize: none;
+}
+.contato-form input:hover,
+.contato-form input:focus,
+.contato-form textarea:hover,
+.contato-form textarea:focus {
+   outline: none;
+   border-color: rgb(255, 165, 0);
+   box-shadow: 0 0 0 1px rgba(255, 165, 0, 0.5);
+}
+button {
+   width: 120px;
+   height: 40px;
+   border: none;
+   cursor: pointer;
+   font-size:x-large;
+   background-color: rgb(176, 171, 172);
+   background-image: linear-gradient(to top left, rgba(46, 46, 46, 0.2), rgba(18, 22, 19, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow:
+      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(36, 43, 37, 0.6);
+   transition: box-shadow 0.20s ease-in-out;
+}
+button:hover{
+   background-color: rgb(112, 109, 110);
+   color: rgb(252, 245, 247);
+   box-shadow: 0px 0px 8px rgb(112, 109, 110);
+}

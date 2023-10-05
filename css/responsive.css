@@ -1,0 +1,180 @@
+@media (max-width:1030px) {
+    header {
+        width: 18.5%;
+    }
+    header li a {
+        font-size: 26px;
+    }
+    #main-content {
+        margin-left: 18.5%;
+    }
+    #main-content #portfolio-container .projeto img {
+        width: 49.7%;
+        height: 35vh;
+        margin-left: 1px;
+    }
+    #main-content #sobreMim img{
+        height: 40vh;
+    }
+    #main-content #curriculo {
+        height: 20vh;
+    }
+    #main-content #tech{
+        height: 20vh;
+    }
+    #main-content #tech .logo img {
+        height: 12vh;
+    }
+    #contato {
+        height: 90vh;
+    }
+    #contato .contato-form{
+        margin: 0 0 0 35px; 
+    }
+    input, textarea {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    body footer {
+        width: 81.5%;
+        margin-left: 18.5%;
+    }
+}
+@media (max-width:690px) {
+    header {
+        width: 15%;
+    }
+    header h1 {
+        font-size: 25px;
+    }
+    header li a {
+        font-size: 20px;
+    }
+    #main-content {
+        margin-left: 15%;
+    }
+    #main-content #portfolio-container .projeto img {
+        height: 20vh;
+    }  
+    #main-content #sobreMim img{
+        height: 22vh;
+    }
+    #main-content #curriculo {
+        height: 12vh;
+    }
+    #main-content #tech{
+        height: 12vh;
+    }
+    #main-content #tech .logo {
+        padding: 20px 20px;
+    }
+    #main-content #tech .logo img {
+        height: 6vh;
+    }
+    #main-content #content {
+        height: 40vh;
+    }
+    #contato {
+        height: 68vh;
+    }
+    body footer {
+        width: 85%;
+        margin-left: 15%;
+    }
+    footer h5 {
+        font-size: 14px;
+    }
+}
+@media (max-width:450px) {
+    header {
+        width: 25%;
+    }
+    header h1 {
+        font-size: 20px;
+    }
+    header li a {
+        font-size: 15px;
+    }
+    #main-content {
+        margin-left: 25%;
+    }
+    #main-content #portfolio-container .projeto img {
+        width: 99.7%;
+        height: 25vh;
+        float: none;
+        position: relative;
+    }
+    #main-content #sobreMim img {
+        height: 15vh;
+    }
+    #sobreMim h2 {
+        font-size: 24px;
+    }
+    #sobreMim h3 {
+        font-size: 15px;
+    }
+    #curriculo button {
+        width: 100%;
+        font-size: 15px;
+    }
+    #main-content #curriculo {
+        height: 10vh;
+    }
+    #main-content #curriculo img {
+        width: 7vw;
+        height: 4vh;
+    }
+    #main-content #tech{
+        height: 10vh;
+    }
+    #main-content #tech .logo {
+        padding: 10px 10px;
+    }
+    #main-content #tech .logo img {
+        height: 5vh;
+    }
+    #main-content #content {
+        height: 30vh;
+    }
+    #main-content #content .conteudo {
+        height: 25%;
+        width: 72%;
+    }
+    #content .conteudo .navigation .bar {
+        width: 12px;
+        height: 10px;
+        margin: 1.5px;
+    }
+     #contato h2 {
+        font-size: 24px;
+    }
+    #contato .contato .local p {
+        font-size: 12px;
+    }
+    input, textarea {
+        padding: 3px 0px;
+        margin-bottom: 2px;
+        font-size: 13px;
+    }
+    #contato button {
+        width: 40%;
+        font-size: 15px;
+    }
+    body footer {
+        width: 74.5%;
+        margin-left: 25%;
+    }
+    footer h5 {
+        font-size: 8px;
+    }
+    footer span h6 {
+        font-weight: none;
+        font-size: 10px;
+    }   
+}
+@media (max-width:395px) {
+    .contato-form textarea {
+        min-height: 140px;
+    }
+}

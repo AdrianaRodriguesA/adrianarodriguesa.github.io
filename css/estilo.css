@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: kalam, cursive, arial;
+    scroll-behavior: smooth;
+}
+body {
+    width: 100%;
+    background-color: rgb(252,245,247);
+    color: rgb(112,109,110);
+}
+h2 {
+    font-size: 36px;
+    text-shadow: 1px 1px 0 rgb(252, 245, 247);
+}
+h3 {
+    /* height: 50vh; */
+    font-size: 20px;
+    text-shadow: 1px 1px 0 rgb(252, 245, 247);
+    margin: 5%;
+    text-indent: 55px;
+    text-align: justify;
+    padding: 10% 0 0 0;
+}
+h4 {
+    font-size: 25px;
+    color: rgb(112, 109, 110);
+}
+p {
+    font-size: 32px;
+    text-shadow: 1px 1px 0 rgb(252, 245, 247);
+    text-align: justify;
+    margin: 5%;
+}
+ .obrigada {
+    height: 100vh;
+    background-color: rgb(176, 171, 172);
+}
+.grata {
+    margin-left: 25%;
+    height: 90vh;
+    padding: 60px 0;
+}
+.grata h2 {
+    text-align: center; 
+    color: rgb(216, 132, 96);
+}
+#btn{
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+    background-color: rgb(216, 132, 96);
+    background-image: linear-gradient(to top left, rgba(46, 46, 46, 0.2), rgba(18, 22, 19, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow:
+      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(36, 43, 37, 0.6);
+    transition: box-shadow 0.20s ease-in-out;
+}
+#btn a {
+    text-decoration: none;
+    padding: 5px 5px;
+}
+
+#btn:hover {
+    background-color: rgba(216, 132, 96, 0.596);
+} 
